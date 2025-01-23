@@ -44,10 +44,7 @@ public class FibonacciNumber {
         if (n < 1){
             return list;
         }
-        int f3 = f1+f2;
-        f1=f2;
-        f2=f3;
-        list.addAll(nthFibonacciUsingRecursion(f1,f2,n-1));
+        list.addAll(nthFibonacciUsingRecursion(f2,f1+f2,n-1));
         return list;
     }
 
