@@ -4,6 +4,7 @@ import java.util.*;
 
 public class PossibleRecipiesFromGivenSupplies {
     public static void main(String[] args) {
+
         String[] recipes = {"bread", "sandwich"};
         List<List<String>> ingredients = List.of(List.of("yeast", "flour"), List.of("bread", "meat"));
         String[] supplies = {"yeast", "flour", "corn"};
